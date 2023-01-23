@@ -1,0 +1,8 @@
+CREATE TABLE DASHBOARD.MS_KOTA
+(
+  ID          NUMBER(19)                        NOT NULL,
+  KOTA        VARCHAR2(255 BYTE),
+  STATUS      VARCHAR2(255 BYTE)                DEFAULT 'Aktif'               NOT NULL,
+  CREATED_AT  TIMESTAMP(6),
+  UPDATED_AT  TIMESTAMP(6)
+)
